@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { MavenArtifactRepository -> url 'https://jitpack.io' }
     }
 }
 rootProject.name = "CleanArchitecturePractice"
