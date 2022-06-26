@@ -1,20 +1,13 @@
 package com.hong.presentation.view
 
-import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import com.hong.presentation.R
+import com.hong.presentation.base.BaseFragment
+import com.hong.presentation.databinding.FragmentResultBinding
 
-class ResultFragment : Fragment() {
+class ResultFragment : BaseFragment<FragmentResultBinding>(
+    R.layout.fragment_result
+) {
+    override fun init() {}
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_result, container, false)
-    }
 
 }

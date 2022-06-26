@@ -1,12 +1,14 @@
 package com.hong.presentation.view
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import android.annotation.SuppressLint
 import com.hong.presentation.R
+import com.hong.presentation.base.BaseActivity
+import com.hong.presentation.databinding.ActivitySplashBinding
 
-class SplashActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
-    }
+@SuppressLint("CustomSplashScreen")
+class SplashActivity : BaseActivity<ActivitySplashBinding>(
+    R.layout.activity_splash
+) {
+    override fun init() {}
+
 }
