@@ -63,13 +63,13 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/back_main_btn"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="26dp"
             android:background="@drawable/name_setting_btn_frame"
             android:enabled="false"
             android:gravity="center"
-            android:onClick="@{fragment::clickBackMainBtn}"
+            android:onClick="@{fragment::toMainFragmentBtnClick}"
             android:padding="10dp"
             android:text="메인으로"
             android:textColor="@color/white"

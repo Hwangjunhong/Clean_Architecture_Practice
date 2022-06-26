@@ -8,7 +8,6 @@ object Versions {
 object Firebase {
     const val DATABASE = "com.google.firebase:firebase-database-ktx:20.0.5"
     const val FIRESTORE = "com.google.firebase:firebase-firestore-ktx:24.2.0"
-
 }
 
 object Kotlin {
@@ -16,13 +15,13 @@ object Kotlin {
 }
 
 object AndroidX {
-    const val MATERIAL = "androidx.compose.material:material:1.0.0-rc02"
-    const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:2.1.0"
-    const val APP_COMPAT = "androidx.appcompat:appcompat:1.3.1"
-    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
-    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
-    const val ACTIVITY = "androidx.activity:activity-ktx:1.3.1"
-    const val FRAGMENT = "androidx.fragment:fragment-ktx:1.3.6"
+    const val MATERIAL = "androidx.compose.material:material:1.1.1"
+    const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:2.1.4"
+    const val APP_COMPAT = "androidx.appcompat:appcompat:1.4.2"
+    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
+    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1"
+    const val ACTIVITY = "androidx.activity:activity-ktx:1.4.0"
+    const val FRAGMENT = "androidx.fragment:fragment-ktx:1.4.1"
     const val DATASTORE = "androidx.datastore:datastore-preferences:1.0.0"
 }
 
@@ -63,16 +62,12 @@ object OkHttp {
     const val LOGGING_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:4.9.1"
 }
 
-object Coroutines {
-    const val COROUTINES = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+object Logger {
+    const val LOGGER = "com.orhanobut:logger:2.2.0"
 }
 
-object CameraX {
-    const val CAMERA_CORE = "androidx.camera:camera-core:1.0.2"
-    const val CAMERA_CAMERA2 = "androidx.camera:camera-camera2:1.0.2"
-    const val CAMERA_LIFECYCLE = "androidx.camera:camera-lifecycle:1.0.2"
-    const val CAMERA_VIEW = "androidx.camera:camera-view:1.0.0-alpha29"
-    const val CAMERA_EXTENSIONS = "androidx.camera:camera-extensions:1.0.0-alpha29"
+object Coroutines {
+    const val COROUTINES = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
 }
 
 object NavComponent {

@@ -51,6 +51,7 @@
             android:background="@drawable/name_setting_btn_frame"
             android:gravity="center"
             android:padding="10dp"
+            android:onClick="@{fragment::startBtnClick}"
             android:text="다음으로"
             android:textColor="@color/white"
             android:textSize="17sp"

@@ -52,6 +52,7 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="궁합 보기"
+            android:onClick="@{fragment::startBtnClick}"
             android:textColor="@color/white"
             android:textSize="17sp"
             app:layout_constraintBottom_toBottomOf="parent"
