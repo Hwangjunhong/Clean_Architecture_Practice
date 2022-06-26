@@ -1,4 +1,4 @@
-package com.hong.presentation.view
+package com.hong.presentation.view.fragment
 
 import android.view.View
 import androidx.navigation.fragment.findNavController

@@ -7,7 +7,7 @@
 
         <variable
             name="fragment"
-            type="com.hong.presentation.view.MainFragment" />
+            type="com.hong.presentation.view.fragment.MainFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:background="@color/main_color"
         android:padding="30dp"
-        tools:context=".view.MainFragment">
+        tools:context=".view.fragment.MainFragment">
 
         <TextView
             android:id="@+id/textView"

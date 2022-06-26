@@ -1,6 +1,5 @@
-package com.hong.presentation.view
+package com.hong.presentation.view.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.hong.presentation.R
 import com.hong.presentation.base.BaseActivity

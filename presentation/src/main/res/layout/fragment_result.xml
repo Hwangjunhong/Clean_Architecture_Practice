@@ -7,13 +7,13 @@
 
         <variable
             name="fragment"
-            type="com.hong.presentation.view.ResultFragment" />
+            type="com.hong.presentation.view.fragment.ResultFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".view.ResultFragment">
+        tools:context=".view.fragment.ResultFragment">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -67,7 +67,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="26dp"
             android:background="@drawable/name_setting_btn_frame"
-            android:enabled="false"
             android:gravity="center"
             android:onClick="@{fragment::toMainFragmentBtnClick}"
             android:padding="10dp"

@@ -1,4 +1,4 @@
-package com.hong.presentation.view
+package com.hong.presentation.view.activity
 
 import android.annotation.SuppressLint
 import com.hong.presentation.R
